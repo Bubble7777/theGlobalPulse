@@ -83,9 +83,9 @@ class _TextFieldDetailState extends State<TextFieldDetail> {
                             textAlign: TextAlign.center,
                             keyboardType: TextInputType.number,
                             decoration: InputDecoration(
+                                enabled: true,
                                 isDense: true,
                                 contentPadding: EdgeInsets.all(10),
-                                enabled: true,
                                 enabledBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
                                       color: ColorPalette.green_300,
